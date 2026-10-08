@@ -6,4 +6,8 @@ numbers = num[3] // 3
 num.insert(5, numbers)
 print(num)
 
+import random
+rewards = ["Chocolate", "Pen", "Notebook", "Coffee", "Sticker"]
+index = int(random.random() * len(rewards))
+print("Your reward is:", rewards[index])
 
