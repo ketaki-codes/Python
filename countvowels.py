@@ -1,12 +1,12 @@
-s = input("Enter a string: ")
+s = input("Enter a string: ") # enter the string
 count = 0
 
-print("Vowels are:")
+print("Vowels are:") 
 
-for ch in s:
-    if ch in "aeiouAEIOU":
-        print(ch, end=" ")
-        count += 1
+for ch in s:                  # put ch in s
+    if ch in "aeiouAEIOU":    #ch as aeiou
+        print(ch, end=" ")    #print which voewls is
+        count += 1          # counting of vowels
 
 print()
-print("Number of vowels:", count)
+print("Number of vowels:", count) #num of vowels
